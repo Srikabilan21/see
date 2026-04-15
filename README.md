@@ -8,8 +8,10 @@ main.py - A blind-assistance vision system that:
 see.py - A simpler version of the same blind-assistance concept:
 - Uses YOLOv8 for object detection via IP webcam (streaming from phone)
 - Triggers a stop alert when objects are very close (>45% of frame width)
+- Optimized the detection pipeline to achieve 25+ FPS 
 - Press 's' to get Gemini AI scene description
 - Press 'q' to quit
+  
   
 modelfiner.py - A utility script that:
 - Lists all available Google Gemini models that support generateContent
